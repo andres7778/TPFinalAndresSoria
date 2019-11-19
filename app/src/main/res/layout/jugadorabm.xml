@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/jugadornombre"
+        android:hint="Ingrese El Nombre Del Jugador">
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese El Apellido del Jugador"
+        android:id="@+id/jugadorapellido">
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese La Edad Del Jugador"
+        android:id="@+id/jugadoredad">
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese La Posicion Del Jugador"
+        android:id="@+id/jugadorposicion">
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese El Sexo Del Jugador"
+        android:id="@+id/jugadorsexo">
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese La Nacionalidad Del Jugador"
+        android:id="@+id/jugadornacionalidad">
+    </EditText>
+
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:text="Seleccione El Club"
+        android:id="@+id/TexTClub"></TextView>
+
+    <Spinner
+        android:layout_width="398dp"
+        android:layout_height="59dp"
+        android:id="@+id/SpinnerClub">
+    </Spinner>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="95"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar"
+            android:id="@+id/jugadorBotonEditar"></Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eliminar"
+            android:id="@+id/jugadorABMBotonEliminar"></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar"
+            android:id="@+id/AgregarJugador"></Button>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
